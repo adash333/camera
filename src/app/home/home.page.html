@@ -1,12 +1,12 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
       Ionic Blank
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
+ 
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+  <img [src]="yourImage">
+  <ion-button (click)="captureImage()">Capture !!</ion-button>
 </ion-content>
